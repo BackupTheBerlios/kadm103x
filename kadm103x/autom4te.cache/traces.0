@@ -1,4 +1,4 @@
-m4trace:aclocal.m4:11258: -1- m4_pattern_allow([^AM_[A-Z]+FLAGS$])
+m4trace:aclocal.m4:11265: -1- m4_pattern_allow([^AM_[A-Z]+FLAGS$])
 m4trace:configure.in:25: -1- AC_INIT([acinclude.m4])
 m4trace:configure.in:25: -1- m4_pattern_forbid([^_?A[CHUM]_])
 m4trace:configure.in:25: -1- m4_pattern_forbid([_AC_])
@@ -70,16 +70,15 @@ m4trace:configure.in:34: -1- AC_SUBST([target], [$ac_cv_target])
 m4trace:configure.in:34: -1- AC_SUBST([target_cpu], [`echo $ac_cv_target | sed 's/^\([[^-]]*\)-\([[^-]]*\)-\(.*\)$/\1/'`])
 m4trace:configure.in:34: -1- AC_SUBST([target_vendor], [`echo $ac_cv_target | sed 's/^\([[^-]]*\)-\([[^-]]*\)-\(.*\)$/\2/'`])
 m4trace:configure.in:34: -1- AC_SUBST([target_os], [`echo $ac_cv_target | sed 's/^\([[^-]]*\)-\([[^-]]*\)-\(.*\)$/\3/'`])
-m4trace:configure.in:39: -1- AM_INIT_AUTOMAKE([kadm103x], [0.2])
-m4trace:configure.in:39: -1- AM_AUTOMAKE_VERSION([1.7.9])
+m4trace:configure.in:39: -1- AM_INIT_AUTOMAKE([kadm103x], [0.4])
+m4trace:configure.in:39: -1- AM_AUTOMAKE_VERSION([1.6.3])
 m4trace:configure.in:39: -1- AC_PROG_INSTALL
 m4trace:configure.in:39: -1- AC_PROG_INSTALL
 m4trace:configure.in:39: -1- AC_SUBST([INSTALL_PROGRAM])
 m4trace:configure.in:39: -1- AC_SUBST([INSTALL_SCRIPT])
 m4trace:configure.in:39: -1- AC_SUBST([INSTALL_DATA])
-m4trace:configure.in:39: -1- AC_SUBST([CYGPATH_W])
 m4trace:configure.in:39: -1- AC_SUBST([PACKAGE], [kadm103x])
-m4trace:configure.in:39: -1- AC_SUBST([VERSION], [0.2])
+m4trace:configure.in:39: -1- AC_SUBST([VERSION], [0.4])
 m4trace:configure.in:39: -1- AC_DEFINE_TRACE_LITERAL([PACKAGE])
 m4trace:configure.in:39: -1- AH_OUTPUT([PACKAGE], [/* Name of package */
 #undef PACKAGE])
@@ -100,17 +99,15 @@ m4trace:configure.in:39: -1- AC_PROG_AWK
 m4trace:configure.in:39: -1- AC_SUBST([AWK])
 m4trace:configure.in:39: -1- AC_PROG_MAKE_SET
 m4trace:configure.in:39: -1- AC_SUBST([SET_MAKE])
-m4trace:configure.in:39: -1- AC_SUBST([am__leading_dot])
 m4trace:configure.in:41: -2- _m4_warn([obsolete], [The macro `AC_HELP_STRING' is obsolete.
 You should run autoupdate.], [autoconf/general.m4:219: AC_HELP_STRING is expanded from...
 aclocal.m4:4460: KDE_FAST_CONFIGURE is expanded from...
 aclocal.m4:4492: KDE_SET_PREFIX is expanded from...
 configure.in:41: the top level])
 m4trace:configure.in:41: -1- AC_SUBST([CONF_FILES])
-m4trace:configure.in:44: -1- _m4_warn([obsolete], [The macro `AM_CONFIG_HEADER' is obsolete.
-You should run autoupdate.], [aclocal.m4:12064: AM_CONFIG_HEADER is expanded from...
-configure.in:44: the top level])
-m4trace:configure.in:44: -1- AC_CONFIG_HEADERS([config.h])
+m4trace:configure.in:44: -1- AC_CONFIG_HEADERS([config.h], [# update the timestamp
+echo 'timestamp for config.h' >"_AM_STAMP([config.h])"
+], [])
 m4trace:configure.in:47: -2- _m4_warn([obsolete], [The macro `AC_HELP_STRING' is obsolete.
 You should run autoupdate.], [autoconf/general.m4:219: AC_HELP_STRING is expanded from...
 aclocal.m4:3046: AC_CHECK_COMPILERS is expanded from...
@@ -145,7 +142,7 @@ m4trace:configure.in:47: -1- AC_SUBST([CC])
 m4trace:configure.in:47: -1- AC_SUBST([ac_ct_CC])
 m4trace:configure.in:47: -1- AC_SUBST([EXEEXT], [$ac_cv_exeext])
 m4trace:configure.in:47: -1- AC_SUBST([OBJEXT], [$ac_cv_objext])
-m4trace:configure.in:47: -1- AC_SUBST([DEPDIR], ["${am__leading_dot}deps"])
+m4trace:configure.in:47: -1- AC_SUBST([DEPDIR])
 m4trace:configure.in:47: -1- AC_SUBST([am__include])
 m4trace:configure.in:47: -1- AC_SUBST([am__quote])
 m4trace:configure.in:47: -1- AM_CONDITIONAL([AMDEP], [test "x$enable_dependency_tracking" != xno])
@@ -153,11 +150,6 @@ m4trace:configure.in:47: -1- AC_SUBST([AMDEP_TRUE])
 m4trace:configure.in:47: -1- AC_SUBST([AMDEP_FALSE])
 m4trace:configure.in:47: -1- AC_SUBST([AMDEPBACKSLASH])
 m4trace:configure.in:47: -1- AC_SUBST([CCDEPMODE], [depmode=$am_cv_CC_dependencies_compiler_type])
-m4trace:configure.in:47: -1- AM_CONDITIONAL([am__fastdepCC], [
-  test "x$enable_dependency_tracking" != xno \
-  && test "$am_cv_CC_dependencies_compiler_type" = gcc3])
-m4trace:configure.in:47: -1- AC_SUBST([am__fastdepCC_TRUE])
-m4trace:configure.in:47: -1- AC_SUBST([am__fastdepCC_FALSE])
 m4trace:configure.in:47: -1- AC_PROG_CPP
 m4trace:configure.in:47: -1- AC_SUBST([CPP])
 m4trace:configure.in:47: -1- AC_SUBST([CPPFLAGS])
@@ -170,11 +162,6 @@ m4trace:configure.in:47: -1- AC_SUBST([CPPFLAGS])
 m4trace:configure.in:47: -1- AC_SUBST([CXX])
 m4trace:configure.in:47: -1- AC_SUBST([ac_ct_CXX])
 m4trace:configure.in:47: -1- AC_SUBST([CXXDEPMODE], [depmode=$am_cv_CXX_dependencies_compiler_type])
-m4trace:configure.in:47: -1- AM_CONDITIONAL([am__fastdepCXX], [
-  test "x$enable_dependency_tracking" != xno \
-  && test "$am_cv_CXX_dependencies_compiler_type" = gcc3])
-m4trace:configure.in:47: -1- AC_SUBST([am__fastdepCXX_TRUE])
-m4trace:configure.in:47: -1- AC_SUBST([am__fastdepCXX_FALSE])
 m4trace:configure.in:47: -1- _m4_warn([obsolete], [The macro `AC_LANG_SAVE' is obsolete.
 You should run autoupdate.], [autoconf/lang.m4:166: AC_LANG_SAVE is expanded from...
 autoconf/general.m4:1799: AC_CACHE_VAL is expanded from...
@@ -3059,3 +3046,11 @@ m4trace:configure.in:68: -1- AC_CONFIG_FILES([ po/Makefile ])
 m4trace:configure.in:69: -1- AC_CONFIG_FILES([ src/Makefile ])
 m4trace:configure.in:70: -1- AC_SUBST([LIB@&t@OBJS], [$ac_libobjs])
 m4trace:configure.in:70: -1- AC_SUBST([LTLIBOBJS], [$ac_ltlibobjs])
+m4trace:configure.in:70: -1- _m4_warn([obsolete], [back quotes and double quotes must not be escaped in: $as_me:$LINENO: error: conditional \"AMDEP\" was never defined.
+Usually this means the macro was only invoked conditionally.], [])
+m4trace:configure.in:70: -1- _m4_warn([obsolete], [back quotes and double quotes must not be escaped in: $as_me: error: conditional \"AMDEP\" was never defined.
+Usually this means the macro was only invoked conditionally.], [])
+m4trace:configure.in:70: -1- _m4_warn([obsolete], [back quotes and double quotes must not be escaped in: $as_me:$LINENO: error: conditional \"include_ARTS\" was never defined.
+Usually this means the macro was only invoked conditionally.], [])
+m4trace:configure.in:70: -1- _m4_warn([obsolete], [back quotes and double quotes must not be escaped in: $as_me: error: conditional \"include_ARTS\" was never defined.
+Usually this means the macro was only invoked conditionally.], [])
