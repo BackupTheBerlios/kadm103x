@@ -1,3 +1,8 @@
+2004-06-14  0.4  Josep M. Mendoza  <josep@mendoza-ginesta.net>
+	
+	* added ca(catalan) and es (spanish) translations
+	* corrected compile warnings
+        
 2004-06-14  0.3  Josep M. Mendoza  <josep@mendoza-ginesta.net>
 	
 	* don't crash if start without therm_adm103x module loaded.
