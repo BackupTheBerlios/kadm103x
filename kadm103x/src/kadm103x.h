@@ -70,7 +70,8 @@ public:
      *
      * The width you return is granted.
      **/
-    virtual int widthForHeight(int height) const;
+    //virtual int widthForHeight(int height) const;
+    virtual int widthForHeight() const;
     /**
      * @return A suggested height for a given width.
      *
@@ -90,7 +91,8 @@ public:
      *
      * The height you return is granted.
      **/
-    virtual int heightForWidth(int width) const;
+    //virtual int heightForWidth(int width) const;
+    virtual int heightForWidth() const;
     /**
      * Is called when the user selects "About" from the applets RMB menu.
      * Reimplement this function to launch a about dialog.
@@ -107,7 +109,8 @@ public:
     bool isWarned;
     
 protected:
-    void resizeEvent(QResizeEvent *);
+    //void resizeEvent(QResizeEvent *);
+    void resizeEvent();
     
 protected slots:
     void update();

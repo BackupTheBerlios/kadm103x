@@ -76,17 +76,20 @@ void kadm103x::about()
                                 i18n("About kadm103x"));
 }
 
-int kadm103x::widthForHeight(int height) const
+//int kadm103x::widthForHeight(int height) const
+int kadm103x::widthForHeight() const
 {
     return 60;
 }
 
-int kadm103x::heightForWidth(int width) const
+//int kadm103x::heightForWidth(int width) const
+int kadm103x::heightForWidth() const
 {
     return height();
 }
 
-void kadm103x::resizeEvent(QResizeEvent *e)
+//void kadm103x::resizeEvent(QResizeEvent *e)
+void kadm103x::resizeEvent()
 {
 }
 
