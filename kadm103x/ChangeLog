@@ -1,0 +1,11 @@
+2004-06-14  0.3  Josep M. Mendoza  <josep@mendoza-ginesta.net>
+	
+	* don't crash if start without therm_adm103x module loaded.
+        
+2004-06-10  0.2  Josep M. Mendoza  <josep@mendoza-ginesta.net>
+	
+	* on previous release CPU and HD temperatures are swapped.
+        
+2004-06-10  0.1  Josep M. Mendoza  <josep@mendoza-ginesta.net>
+	
+	* firts working release.

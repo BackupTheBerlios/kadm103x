@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Comment=iBook adm103x sensor monitor
+Comment[ca]=Monitor per els sensors adm103x de l'iBook
+Comment[es]=Monitor para los sensores adm103x del iBook
+Name=adm103x monitor
+X-KDE-Library=libkadm103x
